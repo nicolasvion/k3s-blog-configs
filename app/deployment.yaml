@@ -15,7 +15,7 @@ kind: Deployment
 metadata:
   name: website
 spec:
-  replicas: 2 
+  replicas: 2
   selector:
     matchLabels:
       app: website
@@ -28,8 +28,8 @@ spec:
       - name: website
         env:
         - name: WWW_URL
-          value: "https://github.com/nicolasvion/website"
-        image: nicolasvion/www:v0.1
+          value: "https://github.com/myuser/website"
+        image: myuser/www:v0.1
         imagePullPolicy: Always
         ports:
         - containerPort: 80
