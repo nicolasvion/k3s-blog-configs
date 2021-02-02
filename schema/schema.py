@@ -9,14 +9,16 @@ graph_attr = {
     "pad": "1",
     "fontsize": "8",
     "fontname": "IBM Plex Mono bold",
-    "bgcolor": "transparent"
+    "bgcolor": "transparent",
+    "fontcolor": "grey"
 }
 
 node_attr = {
     "width": "1",
     "height": "1",
     "fontsize": "8",
-    "fontname": "IBM Plex Mono"
+    "fontname": "IBM Plex Mono",
+    "fontcolor": "grey"
 }
 
 with Diagram("Setup a blog on k3s", show=False, graph_attr=graph_attr, node_attr=node_attr, direction="TB"):
