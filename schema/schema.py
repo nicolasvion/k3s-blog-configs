@@ -8,7 +8,8 @@ from diagrams.k8s.podconfig import Secret
 graph_attr = {
     "pad": "1",
     "fontsize": "8",
-    "fontname": "IBM Plex Mono bold"
+    "fontname": "IBM Plex Mono bold",
+    "bgcolor": "transparent"
 }
 
 node_attr = {
